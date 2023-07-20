@@ -10,10 +10,8 @@ Feature: Account management
 
 
     Examples:
-      | FirstName | LastName | Email                 | Password   | ConfirmPassword |
-      | Olamide   | Banjo    | Patricknee97@gmail.com | Testing12@ | Testing12@      |
-
-
+      | FirstName | LastName | Email                  | Password   | ConfirmPassword |
+      | john      | Banjo    | Patricknee97@gmail.com | Testing12@ | Testing12@      |
 
 
   @SignIn
@@ -27,5 +25,5 @@ Feature: Account management
 
 
     Examples:
-      | Email                 | Password   |
+      | Email                  | Password   |
       | Patricknee97@gmail.com | Testing12@ |
